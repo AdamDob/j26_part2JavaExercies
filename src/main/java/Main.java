@@ -6,7 +6,6 @@ public class Main {
 
     public static void main(String[] args) {
 
-
         Map<Long, Student> studentMap = new TreeMap<>();
 
         Student student1 = new Student(123, "Adam", "RTWR");
@@ -29,10 +28,6 @@ public class Main {
 
         System.out.println(studentMap.values());
 
-
-
     }
-
-
 
 }
